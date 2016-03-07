@@ -1,0 +1,3 @@
+sed - comando
+-i  = Sobscrever
+s/"o que vai substituir"/"pelo o que será substituido"/g nome do arquivo
