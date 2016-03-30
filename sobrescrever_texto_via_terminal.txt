@@ -1,3 +1,14 @@
 sed - comando
 -i  = Sobscrever
+
+// Linux
 s/"o que vai substituir"/"pelo o que será substituido"/g nome do arquivo
+
+// Mac - Incluir .bu
+sed -i.bu s/https/http/g Money.sql
+
+// Local onde se esta no terminal
+pwd
+
+// Procurar em arquivo de texto
+cat Money.sql | grep https
